@@ -1,1 +1,60 @@
+body {
+  background-color: #ffd1dc
+}
 
+a {
+  color: #f2bf1c;
+  font-size: 150%;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  top: 0;
+  left: 0;
+  
+}
+
+li {
+  display: inline;
+  float: left;
+width: 200px;
+padding: 5px;
+margin: 5px;}
+
+li a:hover {
+  background-color: red;
+}
+
+
+h1{
+  font-size:300%;
+  color: red;
+  text-align:center;
+}
+p{
+  text-align:center;
+  color:#8b0000;
+  font-family: courier new;
+  font-size:40%;
+}
+
+table{
+  font-size:40%;
+  font-family: times new roman;
+  border-collapse: collapse;
+  width: 80%;
+  color:blue;
+  background-color: white
+}
+
+td, th {
+  border: 8px double yellowgreen;
+  text-align: left;
+  padding: 8px;
+}
