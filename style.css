@@ -9,17 +9,11 @@ a {
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  background-color: white;
-  width: 100%;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
   top: 0;
-  left: 0;
-  
 }
-
+  
 li {
   display: inline;
   float: left;
